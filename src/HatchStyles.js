@@ -63,8 +63,9 @@ cursor: pointer;
     transition: all 0.5s;
     transform-style: preserve-3d;
     border-radius: 20px;
-    border: 1px solid #fff;
+ 
     box-sizing: border-box;
+    box-shadow: 0 0 3px black;
 
 }
 

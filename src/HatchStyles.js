@@ -63,12 +63,9 @@ cursor: pointer;
     transition: all 0.5s;
     transform-style: preserve-3d;
     border-radius: 20px;
- 
+    border: 1px solid #fff;
     box-sizing: border-box;
-    box-shadow: 0 0 3px black;
-
 }
-
 
 #overlay {
     position: fixed;
@@ -90,7 +87,7 @@ cursor: pointer;
         height: 50%;
         border: solid black 1px;
         color: black;
-   
+        background: rgba(200, 247, 197, 0.9);
         border-radius: 5px;
         box-shadow: 0 0 5px black; 
         position: absolute;    
@@ -98,18 +95,17 @@ cursor: pointer;
         top: 50%;
         left: 50%;
         font-size: 20px;
-        color: white;
         transform: translate(-50%,-50%);
         -ms-transform: translate(-50%,-50%);   
 }
 
-.closebutton {
+.closebutton, .overlay-btn {
     background: yellow;
     border-radius: 5px;
     padding: 5px;
     border: black solid 1px;
     position: absolute;
-    top: 10px;
+    bottom: 10px;
     right: 10px;
     font-family: 'Audiowide', cursive;
     font-weight: lighter;
